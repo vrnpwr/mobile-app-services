@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laravel Project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- sementic cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+	<!-- sementic cdn -->
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- custom css -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div class="row">
+			<div class="col-md-5 logo">
+				<h3>LOGO</h3>
+			</div>
+			<div class="col-md-2">info@mivapps.com</div>
+			<div class="col-md-2"><i class="big whatsapp green icon"></i>+1800 248 XXXX</div>
+			<div class="col-md-2"><i class="far fa-comment-dots" style="font-size: 2em;"></i>
+				<span>&nbsp;&nbsp;&nbsp;Enquiry</span></div>
+			</div>
+		</header>
+
+		<!-- #######################header bottom####################### -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item pl-5 active">
+						<a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item pl-5">
+						<a class="nav-link" href="#">Our Clients</a>
+					</li>
+					<li class="nav-item pl-5 dropdown">
+						<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Our services
+						</a>
+
+					</li>
+					<li class="nav-item pl-5">
+						<a class="nav-link" href="#">Why Choose Us?</a>
+					</li>
+					<li class="nav-item pl-5">
+						<a class="nav-link " href="#">Testimonial</a>
+					</li>
+
+					<li class="nav-item pl-5">
+						<a class="nav-link " href="#">Our Blog</a>
+					</li>
+
+					<li class="nav-item pl-5">
+						<a class="nav-link " href="#">Contact Us?</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div>
+			<div class="card bg-dark text-white">
+				<img src="laptop.jpg" style="width: 100vw; height: 80vh; opacity: 0.7;">
+				<div class="card-img-overlay" style="opacity: 0.7">
+					<h1 class="card-title display-3" style="margin-top: 28vh;">Service 1</h1>
+					<div class="container">
+						<p class="card-text text-center" style="font-size: 1.2em; letter-spacing: 3px;">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<div class="text-center">						
+							<button class="transparent-btn" style="background: transparent; color: white;">Get in touch</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- content with tabbing area -->
+		<div class="container mb-5 mt-5 p-5">
+			<div class="ui top attached tabular menu">
+				<a class="item active" data-tab="first">First</a>
+				<a class="item" data-tab="second">Second</a>
+				<a class="item" data-tab="third">Third</a>
+			</div>
+			<div class="ui bottom attached tab segment active" data-tab="first">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</div>
+			<div class="ui bottom attached tab segment" data-tab="second">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			</div>
+			<div class="ui bottom attached tab segment" data-tab="third">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor.
+			</div>
+		</div>
+		<!-- content with tabbing area -->
+
+		<!-- ########################portfolio design######################## -->
+		<div class="container">
+			<h1 class="text-center text-height" style="color: #9741a3;">Portfolio</h1>			
+			<ul id="menu" class="text-center">
+				<li><a href="#">Mobile Apps</a></li>
+				<li><a href="#">Designs</a></li>
+				<li><a href="#">Best Picks</a></li>
+			</ul>
+			<div class="row">
+				<div class="col-md-2"></div>			
+				<div class="col-md-8">
+					<div class="row">						
+						<div class="col-md-4">
+							<img src="tech-1.jpg" style="margin-bottom: 30px;">
+						</div>
+						<div class="col-md-4">
+							<img src="tec-2.jpeg" style="margin-bottom: 30px;">
+						</div>
+						<div class="col-md-4">
+							<img src="tech-3.jpeg" style="margin-bottom: 30px;">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>	
+			<div class="row">
+				<div class="col-md-2"></div>			
+				<div class="col-md-8">
+					<div class="row">						
+						<div class="col-md-4">
+							<img src="tech-3.jpeg" style="margin-bottom: 30px;">
+						</div>
+						<div class="col-md-4">
+							<img src="tech-5.jpg" style="margin-bottom: 30px;">
+						</div>
+						<div class="col-md-4">
+							<img src="tech-6.jpg" style="margin-bottom: 30px;">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+		<!-- portfolio design -->
+
+
+		<!-- our key clients -->
+		<h2 class="text-center text-vilot text-height">
+		Our Key Clients</h2>
+		<!-- ######################our key clients###################### -->
+
+		<div class="card bg-dark text-white">
+			<img src="apple.jpg" style="width: 100vw; height: 100vh; opacity: 0.5;">
+			<div class="card-img-overlay">
+				<div class="container text-center">
+					<br><br><br>
+					<h1>Our Services</h1>
+					<br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<!-- cards -->
+					<div class="row mt-3">
+						<div class="col-4">
+							<div class="card">
+								<div class="card-body">
+									<i class="big circular inverted olive android icon"></i>
+									<h3 class="card-text text-dark">Android</h3>
+									<small class="text-secondary text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="card">
+								<div class="card-body">
+									<i class="big circular inverted teal  apple icon"></i>
+									<h3 class="card-text text-dark">IOS</h3>
+									<small class="text-secondary text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="card">
+								<div class="card-body">
+									<i class="big circular inverted blue mobile alternate icon"></i>
+									<h3 class="card-text text-dark">Hybrid</h3>
+									<small class="text-secondary text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- #######################Blur background#######################  -->
+		<!-- Big card -->
+		<div class="big-card">
+			<div class="container text-center">
+				<h1 class="text-vilot text-height">Why Choose Us?</h1>
+				<p class="text-secondary font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p class="text-secondary font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+
+		<!-- #######################testimonial card####################### -->
+		<div class="card bg-dark text-white">
+			<img src="testimonial.jpg" style="width: 100vw; height: 100vh; opacity: 0.2;">
+			<div class="card-img-overlay">
+				<div class="container text-center">
+					<br>
+					<h1 class="text-height">Testimonial</h1>
+					<br>			
+
+					<!-- cards -->
+					<div class="row mt-3">
+						<div class="col-4">
+							<img src="men-1.jpg" class="rounded-circle" width="200px" style="position: relative; top: 50px; z-index: 999;">
+							<div class="card">
+								<div class="card-body">
+									<br><br>
+									<h1 class="text-vilot float-left">"</h1>
+									<br>
+									<h3 class="text-center text-secondary">Joseph</h3>
+									<small class="text-secondary text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</small>
+
+									<h1 class="text-vilot float-right">"</h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<img src="men-2.jpg" class="rounded-circle" width="200px" style="position: relative; top: 50px; z-index: 999;">
+							<div class="card">
+								<div class="card-body">
+									<br><br>
+									<h1 class="text-vilot float-left">"</h1>
+									<br>
+									<h3 class="text-center text-secondary">Danny H.</h3>
+									<small class="text-secondary text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</small>
+
+									<h1 class="text-vilot float-right">"</h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<img src="girl-1.jpg" class="rounded-circle" width="200px" style="position: relative; top: 50px; z-index: 999;">
+							<div class="card">
+								<div class="card-body">
+									<br><br>
+									<h1 class="text-vilot float-left">"</h1>
+									<br>
+									<h3 class="text-center text-secondary">Stephenson</h3>
+									<small class="text-secondary text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</small>
+
+									<h1 class="text-vilot float-right">"</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- ########################our blog card######################## -->
+		<div class="blogCard">
+			<div class="container">
+				<br><br><br>
+				<h1 class="text-vilot text-center text-height">Our Blog</h1>
+				<br><br>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-md-5">
+						<img src="eng.jpg" style="width: 100%; height: 60%;">
+						<h3 class="text-vilot">Company rules at a glance!</h3>
+						<small class="text-secondary">December 16,2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  by <span class="font-weight-bold" style="font-size: 1.2em;">Hennry </span></small><br>
+						<small class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur.</small>
+					</div>
+					<div class="col-md-5">
+						<img src="tech.jpg" style="width: 100%; height: 60%;">
+						<h3 class="text-vilot">Company rules at a glance!</h3>
+						<small class="text-secondary">December 16,2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  by <span class="font-weight-bold" style="font-size: 1.2em;">Hennry </span></small><br>
+						<small class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</small>
+					</div>
+					<div class="col-1"></div>
+				</div>
+
+			</div>
+			<br><br><br><br>
+		</div>
+
+		<!-- ######################Contact Us Card ######################-->
+		<div class="contactUs">
+			<div class="container ">
+				<br><br><br>
+				<h1 class="text-vilot text-center text-height">Contact Us</h1>
+				<br><br>
+				<div class="row">
+					<div class="col-6">
+						<div class="row">
+
+							<div class="col-6">
+								<div class="form-group">
+									<input type="text" name="" class="form-control" placeholder="First Name">
+								</div>	
+							</div>
+
+							<div class="col-6">
+								<div class="form-group">
+									<input type="text" name="" class="form-control" placeholder="Last Name">
+								</div>
+							</div>
+
+							<div class="col-12">
+								<div class="form-group">
+									<input type="text" name="" class="form-control" placeholder="Email Address">
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-group">
+									<textarea rows="10" class="form-control">
+
+									</textarea>
+								</div>
+							</div>
+							<div class="col-8">						
+							</div>
+							<div class="col-4">
+								<div class="form-group">
+									<input type="button" name="submit" value="Send Message" class="form-control send-button">							
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-1"></div>
+					<div class="col-4">
+						<div class="">
+							<h2>Need to know more on details ? Call us on <span class="text-vilot">1800 XXXX XXX</span></h2>
+							<h6 class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</h6 >
+						</div>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--####################### Fotter #######################-->
+		<div class="footer-card">		
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<p class="font-weight-bold">About Us</p>
+						<small class="text-secondary font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</small>
+					</div>
+					<div class="col-4">
+						<p class="font-weight-bold">Details</p>
+						<p class="text-secondary">Adress</p>
+						<p class="text-secondary">Lorem Ipsum</p>
+						<p class="text-secondary">Lorem Ipsum</p>
+						<p class="text-secondary">Terms of Service</p>
+					</div>
+					<div class="col-4">
+						<h6 class="font-weight-bold">
+							Need Help??
+						</h6>
+						<img src="">
+						<p>Subscribe to our newsletter</p>
+						<div class="input-group mb-3">
+							<input type="text" class="form-control" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="basic-addon2">
+							<div class="input-group-append">
+								<span class="input-group-text" id="basic-addon2">Subscribe</span>
+							</div>
+						</div>
+						<small>Follow Us</small><br>
+						<i class="facebook f icon"></i> <i class="twitter icon"></i> <i class="instagram icon"></i> <i class="linkedin icon"></i>
+					</div>
+				</div>
+				<br><br><br>
+				<hr class="style-eight" />
+				<br>
+				<p class="text-center text-secondary ">copyright 2019 | All Right Reserved</p>
+			</div>
+		</div>
+		<!-- sementic -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>	
+		<!-- sementic -->
+		<script type="text/javascript">
+			$('.menu .item').tab();
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<!-- ################script################ -->
+	</body>
+
+	</html>

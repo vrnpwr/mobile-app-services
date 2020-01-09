@@ -1,0 +1,131 @@
+header {
+	height: 10vh;
+	background: white;
+	text-align: center;
+}
+.logo {
+	padding: 30px 5px!important;
+}
+.logo > h3 {
+	color: #9741a3;
+}
+
+.row > .col-md-2 {
+	padding: 30px;
+	font-weight: 700;
+}
+
+ .nav-item> a:hover {
+  background-color: #9741a3;
+  text-align: center;
+  justify-content: center;
+}
+.nav-item > a {
+	font-weight: 700!important;
+}
+
+.navbar {
+    padding: 0rem 1rem!important;
+    height: 3.2em;
+}
+
+.card-title {
+	text-align: center;
+	align-content: center;
+}
+
+.col-md-4 >img {
+	width: 100%;
+}
+
+ul#menu li {
+  display:inline;
+}
+
+#menu >li >a {
+	color: black!important;
+	padding: 0px 10px;
+}
+
+#menu >li >a:hover {
+	text-decoration: underline;
+}
+.text-vilot {
+	color: #94529c;
+}
+
+.text-height {
+	font-size: 32px;transform: scale(.9, 1);
+}
+#blurImgContent {
+	align-content: center;
+	position: absolute;
+	left: 10vw;
+	top: 220vh;
+	min-height: -50vh;
+	color: white;
+	font-weight: 700;
+}
+
+div > .card {
+    border-radius: 1.25rem!important;
+}
+
+.big-card {
+	padding-top: 15vh;
+	width: 100vw;
+	height: 55vh;
+}
+
+.blogCard {
+	padding-bottom: 10vh; 
+}
+
+.contactUs {
+	width: 100vw;
+	height: 80vh;
+	background:#f7f4f4;
+}
+
+.send-button {
+	background-color: #94529c;
+	color: white;
+	height: 4.5em;
+}
+
+.footer-card {
+	width: 100vw;
+	height: 60vh;
+	background: #333333;
+	color: white;
+	padding: 10vh 12vw;
+}
+
+.input-group-text {
+	background-color: #94529c!important;
+	color: white;
+	padding: 10px;
+	border: 0px solid white!important;
+}
+
+hr.style-eight {
+height: 1px;
+border: 1;
+box-shadow: inset 0 4px 4px -3px #94529c;;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+
+.transparent-btn {
+	border: 2px solid white;
+    padding: 12px 15px;
+    font-size: 1.5em;
+    background: transparent;
+}
+
+.whatsapp {
+	
+}
